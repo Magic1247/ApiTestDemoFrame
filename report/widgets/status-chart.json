@@ -1,0 +1,21 @@
+[ {
+  "uid" : "c45c7ae7f8ae8b96",
+  "name" : "test_in_books[演示case(判断获取到的第一本书名与描述是否与期望一致)]",
+  "time" : {
+    "start" : 1630281961423,
+    "stop" : 1630281961506,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d78fa373a6b74863",
+  "name" : "test_in_books[演示case(判断获取到的第一本书名与描述是否与期望一致)2]",
+  "time" : {
+    "start" : 1630281961510,
+    "stop" : 1630281961552,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

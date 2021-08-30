@@ -1,0 +1,37 @@
+---
+tests:
+  #用例名称
+- case: 演示case(判断获取到的第一本书名与描述是否与期望一致)
+  #请求对象
+  http:
+    method: GET
+    path: /books/getAll
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+    #入参(当前测试接口空参,无需填写)
+    params:
+
+  #期望结果
+  expected:
+    response:
+      bookName: Java
+      detail: 从入门到放弃
+      bookID: 1
+
+
+- case: 演示case(判断获取到的第一本书名与描述是否与期望一致)2
+  #请求对象
+  http:
+    method: GET
+    path: /books/getAll
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+    #入参(当前测试接口空参,无需填写)
+    params:
+
+  #期望结果
+  expected:
+    response:
+      bookName: Java
+      detail: 从入门到放弃
+      bookID: 1

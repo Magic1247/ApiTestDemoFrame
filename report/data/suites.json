@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testCases",
+    "children" : [ {
+      "name" : "test_in_books",
+      "children" : [ {
+        "name" : "TestInBooks",
+        "children" : [ {
+          "name" : "test_in_books[演示case(判断获取到的第一本书名与描述是否与期望一致)]",
+          "uid" : "c45c7ae7f8ae8b96",
+          "parentUid" : "d28b02ccafe7c8fd1f1555a814796ab3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1630281961423,
+            "stop" : 1630281961506,
+            "duration" : 83
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'演示case(判断获取到的第一本书名与描述是否与期望一致)'", "{'response': {'bookName': 'Java', 'detail': '从入门到放弃', 'bookID': 1}}", "{'method': 'GET', 'path': '/books/getAll', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': None}" ]
+        }, {
+          "name" : "test_in_books[演示case(判断获取到的第一本书名与描述是否与期望一致)2]",
+          "uid" : "d78fa373a6b74863",
+          "parentUid" : "d28b02ccafe7c8fd1f1555a814796ab3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1630281961510,
+            "stop" : 1630281961552,
+            "duration" : 42
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'演示case(判断获取到的第一本书名与描述是否与期望一致)2'", "{'response': {'bookName': 'Java', 'detail': '从入门到放弃', 'bookID': 1}}", "{'method': 'GET', 'path': '/books/getAll', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': None}" ]
+        } ],
+        "uid" : "d28b02ccafe7c8fd1f1555a814796ab3"
+      } ],
+      "uid" : "c5e2ec09935bc4565b950a796f035034"
+    } ],
+    "uid" : "45c6c0641e9c1fa7e44cd0d2b7e3ecfc"
+  } ]
+}
