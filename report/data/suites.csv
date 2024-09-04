@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Aug 30 08:06:01 CST 2021","Mon Aug 30 08:06:01 CST 2021","83","testCases","test_in_books","TestInBooks","","","test_in_books[演示case(判断获取到的第一本书名与描述是否与期望一致)]",""
-"passed","Mon Aug 30 08:06:01 CST 2021","Mon Aug 30 08:06:01 CST 2021","42","testCases","test_in_books","TestInBooks","","","test_in_books[演示case(判断获取到的第一本书名与描述是否与期望一致)2]",""

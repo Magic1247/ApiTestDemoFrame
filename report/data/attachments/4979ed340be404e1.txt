@@ -1,1 +1,0 @@
-[{'bookID': 1, 'bookName': 'Java', 'bookCounts': 1, 'detail': '从入门到放弃'}, {'bookID': 2, 'bookName': 'MySQL', 'bookCounts': 10, 'detail': '从删库到跑路'}, {'bookID': 3, 'bookName': 'Linux', 'bookCounts': 5, 'detail': '从进门到进牢'}, {'bookID': 5, 'bookName': '肖战哥哥', 'bookCounts': 1, 'detail': '这就是街舞'}, {'bookID': 6, 'bookName': '吃个桃桃', 'bookCounts': 1, 'detail': '好凉凉'}]
